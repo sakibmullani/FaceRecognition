@@ -6,15 +6,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.FaceDetector;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 import org.tensorflow.lite.support.image.TensorImage;
-import org.tensorflow.lite.task.vision.face.FaceDetector;
-import org.tensorflow.lite.task.vision.face.Face;
-import org.tensorflow.lite.task.vision.face.FaceLandmark;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
